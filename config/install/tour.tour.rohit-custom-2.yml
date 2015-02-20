@@ -1,0 +1,22 @@
+id: rohit-custom-2
+module: rohit_tour
+label: Custom Tour
+langcode: en
+routes:
+  - route_name: node.add_page
+tips:
+  custom_1:
+    id: custom_1
+    plugin: text
+    youtube_id: 'momomo'
+    label: Custom tour for learning
+    body: <p>dsdfdsfds</p>
+    weight: "1"
+  block-seven-content:
+    id: block-seven-content
+    plugin: custom
+    my_id: 'momomo'
+    label: Custom tour for learning
+    attributes:
+      data-id: block-seven-content
+    weight: "2"

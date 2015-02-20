@@ -1,0 +1,9 @@
+# Schema for the configuration files of the Tour Test module.
+
+tour.tip.custom:
+  type: tour.tip
+  label: 'Custom tour tip'
+  mapping:
+    url:
+      type: uri
+      label: 'Custom URL'

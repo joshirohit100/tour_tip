@@ -1,0 +1,6 @@
+name: Rohit Tour
+description: Create custom tour tip plugin.
+core: 8.x
+type: module
+dependencies:
+ - tour
